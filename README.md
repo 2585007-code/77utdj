@@ -1,57 +1,25 @@
-# 📚 Daily Study Goals App (오늘의 공부 목표)
+# 📚 오늘의 공부 목표 (Daily Study Goals App)
 
-<div align="center">
-  <p>A cute, modern, and interactive daily planner designed to keep your motivation high! 🌱</p>
-</div>
+> **매일매일 한 걸음씩 성장하도록 돕는 귀엽고 스마트한 목표 관리 플래너입니다. 🌱**
 
-## ✨ Features
+## 📸 스크린샷
 
-*   **✨ Interactive Progress Tracking:** Don't just check a box! Use the custom range sliders to track precisely how far along you are (0% to 100%) for each goal.
-*   **🌤️ Smart Weather Widget:** Displays real-time time, date, and local weather via the `wttr.in` API. You can automatically detect your location or switch between major Korean cities (Seoul, Busan, Jeju, etc.).
-*   **🎨 Pastel UI & Animations:** Beautifully crafted using a mint-green vibrant palette (`#4CAF93`). Includes bouncing emojis, fluid strikethrough logic, and dynamic pastel backgrounds for completed tasks.
-*   **💡 Daily Motivational Quotes:** Get a random, inspiring Korean quote every time you open the app to boost your study morale!
-*   **💾 Local Storage Persistence:** All your goals, completion states, and progress percentages are securely saved in your browser's Local Storage.
-*   **🗑️ Safe Deletion:** Inline, non-intrusive deletion confirmations ensure you never accidentally delete a task without interrupting your workflow. Includes a bulk "Clear Completed" function.
+<!-- 실제 깃허브에 올리실 때 아래 플레이스홀더 이미지 링크를 실제 캡처한 이미지 링크로 교체해주세요! -->
+> *대시보드 메인 화면 및 주요 기능 예시*
+![App Screenshot](https://via.placeholder.com/800x450.png?text=Daily+Study+Goals+Screenshot+Here)
 
-## 🛠️ Tech Stack
+## 💡 사용법
 
-*   **Frontend Framework:** React 19 + TypeScript
-*   **Build Tool:** Vite
-*   **Styling & Design:** Tailwind CSS v4
-*   **Animations:** `motion` (Framer Motion)
-*   **Icons:** Lucide React
-*   **APIs:** `wttr.in` (No API Key required)
+1. **학습 목표 추가하기**: 상단 입력창에 오늘의 공부 목표를 적고 `+` 버튼이나 `Enter` 키를 눌러주세요. (빈 칸으로 제출하면 빨간색 경고와 함께 입력창이 흔들립니다! 🚨)
+2. **진척도(%) 세밀하게 기록하기**: 단조로운 체크박스 대신, 각 목표 하단에 있는 **슬라이더 바**를 드래그하여 달성률을 0%에서 100%까지 시각적으로 기록해 보세요.
+3. **목표 달성 (완료 처리)**: 슬라이더가 100%에 도달하거나 우측의 체크박스를 클릭하면, 자연스러운 스크래치(가로줄) 애니메이션과 함께 배경이 예쁜 파스텔 톤으로 변합니다.
+4. **실시간 날씨 및 시간 위젯**: 화면 상단에서 현재 시간, 날짜, 날씨 정보를 제공합니다. 드롭다운 메뉴를 통해 자동 위치뿐만 아니라 서울, 부산, 대구 등 한국 주요 도시의 날씨로 자유롭게 전환할 수 있습니다.
+5. **실수 방지 안전 삭제**: 휴지통(삭제) 버튼을 누르면 브라우저 팝업 대신 유려한 애니메이션과 함께 `삭제 / 취소` 버튼이 등장하여 실수로 목표를 날리는 것을 방지합니다. 
+6. **완료된 목표 한 번에 지우기**: 완료된 항목이 있다면 화면 맨 하단에 분홍색 `완료된 항목 모두 삭제 ✨` 버튼이 나타납니다.
+7. **매일 바뀌는 동기부여 명언**: 앱을 열 때마다 하단에서 랜덤한 학습 자극 명언이 당신을 응원합니다!
 
-## 🚀 Quick Start
+## 🤖 AI 투명성 (AI Transparency)
 
-To run this project locally, simply follow these steps:
+이 프로젝트의 기획안 작성부터 핵심 소스 코드(React, Tailwind CSS를 활용한 반응형 UI, framer-motion을 활용한 애니메이션 렌더링, 외부 API 연동 등)는 **Google AI Studio**와 **Gemini 기반의 AI 코딩 에이전트**의 도움을 적극적으로 활용하여 생성 및 작성되었습니다.
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/daily-study-goals.git
-cd daily-study-goals
-```
-
-### 2. Install dependencies
-```bash
-npm install
-```
-
-### 3. Start the development server
-```bash
-npm run dev
-```
-
-### 4. Open in Browser
-Navigate to `http://localhost:3000` to see the app in action!
-
-## 💡 How to Use
-
-1.  **Add a Goal:** Type your study goal in the input field and hit "Enter" or click the `+` button. (Empty inputs will trigger a warning shake!).
-2.  **Update Progress:** Drag the slider beneath your goal to track your progress. Once it hits 100%, it will automatically be crossed off.
-3.  **Quick Complete:** Click the checkbox to instantly toggle between 0% and 100%.
-4.  **Weather Settings:** Click the dropdown in the top weather widget to check the weather in different regions.
-5.  **Clear Board:** Once you have completed tasks, scroll to the bottom and click the pink "완료된 항목 모두 삭제 ✨" button to archive them out of sight.
-
----
-*Built with ❤️ for better study habits.*
+개발 과정 전반에 걸쳐 지속적인 프롬프트 엔지니어링과 AI와의 상호작용(대화)을 통해 요구사항을 고도화하였으며, 이를 기반으로 코드를 검토하고 다듬어 최종 배포본을 완성시켰습니다.
