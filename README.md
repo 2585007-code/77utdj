@@ -1,10 +1,20 @@
-chức năng chính:
- nhập muc tiêu học tập hôm nay 
- hiện thị danh sách mục tiêu 
- đánh dấu hoàn thành  checkbox
- xóa mục tiêu 
- lưu dữ liệu bằng localStorage
-Luồng sử dụng 
-người dùng nhập mục tiêu -> nhấn thêm 
-mục tiêu hiển thị dạng list 
-dữ liệu được lưu lịa khi reload 
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
+
+# Run and deploy your AI Studio app
+
+This contains everything you need to run your app locally.
+
+View your app in AI Studio: https://ai.studio/apps/8be986e6-c4c2-4161-ac55-ffc431ac47ee
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`

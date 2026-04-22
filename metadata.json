@@ -1,0 +1,8 @@
+{
+  "name": "학습 목표 (Study Goals)",
+  "description": "일일 학습 목표 관리 앱 (Daily Study Goals App)",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
