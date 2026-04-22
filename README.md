@@ -1,9 +1,10 @@
+
 # 📚 오늘의 공부 목표 (Daily Study Goals App)
 
 > **매일매일 한 걸음씩 성장하도록 돕는 귀엽고 스마트한 목표 관리 플래너입니다. 🌱**
 
 ## 📸 스크린샷
-
+<img width="1331" height="833" alt="화면 캡처 2026-04-22 121811" src="https://github.com/user-attachments/assets/82887919-8c90-467b-ab8e-24bda88fc94e" />
 <!-- 실제 깃허브에 올리실 때 아래 플레이스홀더 이미지 링크를 실제 캡처한 이미지 링크로 교체해주세요! -->
 > *대시보드 메인 화면 및 주요 기능 예시*
 ![App Screenshot](https://via.placeholder.com/800x450.png?text=Daily+Study+Goals+Screenshot+Here)
